@@ -11,6 +11,7 @@ def main():
     root = Tk()
     root.title('Encrypter')
     root.geometry('500x500')
+    root.iconbitmap('icon/icon.ico')
 
 
     frame2 = LabelFrame(root, text='Command Centre', fg='white', bg='#212120')
@@ -95,6 +96,7 @@ def sub(e=None):
 win = Tk()
 win.title('Encrypter')
 win.geometry('300x100')
+win.iconbitmap('icon/icon.ico')
 
 password='123'
 
